@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer a{
+  font-size: 30px;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+
+.active{
+border-bottom: 2px solid rgb(13, 255, 0);
+}
+/* From Uiverse.io by mi-series */ 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #EDDCD9;
+  height: auto;
+  width: auto;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  box-shadow: 3px 4px 0px 1px #E99F4C;
+}
+
+.title {
+  color: #264143;
+  font-weight: 900;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.sub_title {
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 10px;
+}
+
+.form_style {
+  outline: none;
+  border: 2px solid #264143;
+  box-shadow: 3px 4px 0px 1px #E99F4C;
+  width: 290px;
+  padding: 12px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.form_style:focus, .btn:focus {
+  transform: translateY(4px);
+  box-shadow: 1px 2px 0px 0px #E99F4C;
+}
+
+.btn2 {
+  padding: 15px;
+  margin: 25px 0px;
+  width: 290px;
+  font-size: 15px;
+  background: #363636;
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0px 0px #E99F4C;
+}
+
+.btn:hover {
+  opacity: .9;
+}
+
+.link {
+  font-weight: 800;
+  color: #264143;
+  padding: 5px;
+}
+
+.ts{
+  background-color: rgb(48, 48, 48);
+  margin-top: -280px;
+}
+.two{
+  width: 280px;
+  height: 280px;
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: -10px;
+  border-radius: 40px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.dv{
+  background-color: rgb(48, 48, 48);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  margin-top: 200px;
+  color: rgb(0, 145, 255);
+}
+.cm{
+  margin-top: 120px;
+}
+.emg{
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  margin-top: -40px;
+}
+.one{
+  width: 307px;
+  height: 339px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48, 48, 48);
+  border-radius: 40px;
+  margin-top: 200px;
+  position: absolute;
+  margin-left: 100px;
+}
+.fmg{
+  width: 250px;
+  height: 280px;
+}
+.yt{
+  width: 310px;
+  height: 485px;
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-top: -100px;
+  position: absolute;
+  margin-left: 850px;
+}
+.yt .smg{
+  width: 287px;
+  height: 437px;
+}
+.tet{
+  font-size: 45px;
+  position: absolute;
+  margin-top: -86px;
+  margin-left: 85px;
+}
+.ts{
+  padding: 50px;
+}
+.full{
+  width: 1170px;
+  height: 704px;
+  background-color: none;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.pat{
+  width: 970px;
+  height: 600px;
+  background-color: rgb(48, 48, 48);
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.full h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.mg {
+  height: 500px;
+  width: 500px;
+  margin-left: 30px;
+  margin-bottom: -20px;
+}
+.pat h2{
+font-size: 24px;
+  text-align: center;
+line-height: 100%;
+}
+.pat p{
+  width: 300px;
+  text-align: center;
+  font-size: 17px;
+}
+.pat a{
+  color: #E2A100;
+  font-size: 18px;
+  text-align: center;
+}
+.ssn{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.ses{
+  position: absolute;
+  margin-top: -0px;
+  margin-left: 40px;
+}
+.dd{
+  background-color: rgb(48, 48, 48);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  margin-top: 20px;
+  margin-left: 521px;
+  color: rgb(0, 145, 255);
+}
