@@ -2,21 +2,23 @@ import img from "/public/bgg.png";
 import img2 from "/public/image copy.png";
 import img3 from "/public/image copy 2.png";
 import img4 from "/public/image copy 3.png";
-import img5 from "/public/image copy 4.png"
+import img5 from "/public/image copy 4.png";
+import img6 from "/public/image.png"
+import img7 from "/public/image copy 5.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useRef, useState } from 'react';
+import React from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import './styles.css';
+import "./styles.css";
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation } from "swiper/modules";
 
 function About() {
   return (
@@ -27,7 +29,7 @@ function About() {
             OMONOV
           </h1>
           <h3 className="text-3xl font-semibold  pl-[185px]">
-            Frontend Developer 
+            Frontend Developer
           </h3>
           <p className="text-xl w-1/2  m-auto pt-4 pb-8">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -40,29 +42,29 @@ function About() {
           <img className="w-[1600px]  h-[90vh]" src={img} alt="" />
         </div>
       </div>
-      <div className="w-full h-[auto] grid grid-cols-3 p-10 bg-sky-800">
-        <div className="dv w-96 rounded-3xl m-10 h-96 bg-sky-600">
-          <i class="fa-brands fa-html5 fa-2xl"></i>
+      <div className="w-full h-[auto] grid grid-cols-3 p-10 ">
+        <div className="dv w-96 rounded-3xl m-10 h-96 ">
+          <i class="fa-brands fa-html5 fa-2xl "></i>
         </div>
-        <div className="dv w-96 rounded-3xl m-10 h-96 bg-sky-600">
-          <i class="fa-brands fa-css3 fa-2xl"></i>
+        <div className="dv w-96 rounded-3xl m-10 h-96 ">
+          <i class="fa-brands fa-css3 fa-2xl "></i>
         </div>
-        <div className="dv w-96 rounded-3xl m-10 h-96 bg-sky-600">
-          <i class="fa-brands fa-js fa-2xl"></i>
+        <div className="dv w-96 rounded-3xl m-10 h-96 ">
+          <i class="fa-brands fa-js fa-2xl " ></i>
         </div>
-        <div className="dd w-96 rounded-3xl m h-96 bg-sky-600">
-          <i class="fa-brands fa-react fa-2xl"></i>
+        <div className="dd w-96 rounded-3xl m h-96 ">
+          <i class="fa-brands fa-react fa-2xl" ></i>
         </div>
       </div>
-      <div className="cm w-full h-[1000px]  p-10 bg-sky-800">
+      <div className="cm w-full h-[1000px]  p-10 ">
         <div className="two">
-          <img className="emg" src={img2} alt="" />
+          <img className="emgs" src={img2} alt="" />
         </div>{" "}
         <br />
         <div className="one">
           <img className="fmg" src={img4} alt="" />
         </div>
-        <div className="ts w-[496px] absolute rounded-3xl m-10 h-[822px] ml-96 bg-sky-600">
+        <div className="ts w-[496px] absolute rounded-3xl m-10 h-[822px] ml-96 ">
           <h1 className="tet">ABOUT ME</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
@@ -95,46 +97,83 @@ function About() {
           <img className="smg" src={img3} alt="" />
         </div>
       </div>
-      {/*  */}
-         <Swiper
-        pagination={{
-          type: 'progressbar',
-        }}
+
+
+              <h1 className="h">Portfolio</h1>
+      <Swiper
+
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper mt-[-100px]"
       >
         <SwiperSlide>
-          <div className="full">
-        <h1>Portfolio</h1>
-        <div className="pat">
-          <img className="mg" src={img5} alt="" />
-          <div className="ssn text-center gap-10">
-            <h2>Landing Ice-cream</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
-              orci eu elit consequat posuere ut sed elit. Nulla et tristique
-              felis. Morbi quis orci non purus blandit fringilla. Etiam et
-              mollis eros. Duis venenatis vulputate lacus, non tristique eros
-              placerat vel. Nam nec magna lacus. Etiam euismod egestas mauris
-              nec mollis. Phasellus efficitur et ex vel condimentum. Cras enim
-              purus, tempor sed massa vel, accumsan bibendum magna. cursus
-              purus, sit amet viverra arcu gravida <br /> vel.
-            </p>
-            <a href="#">More →</a>
+          <div className="pat">
+            <img className="mgss absolute z-0" src={img5} alt="" />
+            <div className="ssn text-center gap-10">
+            <div className="eng">
+                <h2 className="z-10 mb-5  mt-[-10px] ml-[-335px]">Landing Ice-cream</h2>
+              <p className="z-40">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ut orci eu elit consequat posuere ut sed elit. Nulla et
+                tristique felis. Morbi quis orci non purus blandit fringilla.
+                Etiam et mollis eros. Duis venenatis vulputate lacus, non
+                tristique eros placerat vel. Nam nec magna lacus. Etiam euismod
+                egestas mauris nec mollis. Phasellus efficitur et ex vel
+                condimentum. Cras enim purus, tempor sed massa vel, accumsan
+                bibendum magna. cursus purus, sit amet viverra arcu gravida{" "}
+                <br /> vel.
+              </p>
+              <a className="z-10  mt-[-10px] ml-[-335px]" href="#">More →</a>
+            </div>
+            </div>
           </div>
-        </div>
-      </div>
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <div className="pat">
+            <img className="mgss absolute z-0" src={img6} alt="" />
+            <div className="ssn text-center gap-10">
+            <div className="eng">
+                <h2 className="z-10 mb-5  mt-[-10px] ml-[-335px]">Landing Ice-cream</h2>
+              <p className="z-40">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ut orci eu elit consequat posuere ut sed elit. Nulla et
+                tristique felis. Morbi quis orci non purus blandit fringilla.
+                Etiam et mollis eros. Duis venenatis vulputate lacus, non
+                tristique eros placerat vel. Nam nec magna lacus. Etiam euismod
+                egestas mauris nec mollis. Phasellus efficitur et ex vel
+                condimentum. Cras enim purus, tempor sed massa vel, accumsan
+                bibendum magna. cursus purus, sit amet viverra arcu gravida{" "}
+                <br /> vel.
+              </p>
+              <a className="z-10  mt-[-10px] ml-[-335px]" href="#">More →</a>
+            </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="pat">
+            <img className="mgss absolute z-0" src={img7} alt="" />
+            <div className="ssn text-center gap-10">
+            <div className="eng">
+                <h2 className="z-10 mb-5  mt-[-10px] ml-[-335px]">Landing Ice-cream</h2>
+              <p className="z-40">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ut orci eu elit consequat posuere ut sed elit. Nulla et
+                tristique felis. Morbi quis orci non purus blandit fringilla.
+                Etiam et mollis eros. Duis venenatis vulputate lacus, non
+                tristique eros placerat vel. Nam nec magna lacus. Etiam euismod
+                egestas mauris nec mollis. Phasellus efficitur et ex vel
+                condimentum. Cras enim purus, tempor sed massa vel, accumsan
+                bibendum magna. cursus purus, sit amet viverra arcu gravida{" "}
+                <br /> vel.
+              </p>
+              <a className="z-10  mt-[-10px] ml-[-335px]" href="#">More →</a>
+            </div>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
+    
       <footer></footer>
     </>
   );

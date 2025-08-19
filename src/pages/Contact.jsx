@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
-import img from "/public/image.jpg";
+import img from "/public/bgg.png";
 
 function Contact() {
   return (
@@ -12,7 +12,7 @@ function Contact() {
         <h3 className="text-3xl font-semibold m-auto pl-40">
           Frontend Developer <br /> and Designer
         </h3>
-        <p className="text-xl w-1/2  m-auto pt-4 pb-8">
+        <p className="tx text-xl w-1/2  m-auto pt-4 pb-8">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
           animi enim dolorum consequuntur dignissimos quasi corporis at saepe et
           nemo odit iste ipsam ex possimus, nisi voluptatibus consectetur eaque.
@@ -25,7 +25,7 @@ function Contact() {
         </button>
         <button className="btn ses">+998 90 900 90 90</button>
       </div>
-      <div className="W-1/2 h-full bg-sky-800 overflow-clip">
+      <div className="W-1/2 h-full overflow-clip">
         <img className="w-[1600px]  h-[90vh]" src={img} alt="" />
       </div>
     </div>
