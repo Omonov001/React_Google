@@ -1,6 +1,6 @@
 import React from 'react'
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
-import Image from './image.jsx';
+import Image from './Image.jsx';
 
 
 function ImageContainer({images}) {
